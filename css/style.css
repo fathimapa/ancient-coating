@@ -764,3 +764,16 @@
 .WA_Chat_Widget .WA_ChatBox {
     z-index: 999998 !important;
 }
+
+.gallery-item img {
+    height: 250px; /* or any height you prefer */
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px; /* optional: same as 'rounded' class */
+}
+.team-item img {
+    height: 250px;          /* You can adjust the height as needed */
+    object-fit: cover;      /* Ensures images fill space without distortion */
+    width: 100%;            /* Ensures full width */
+    border-radius: 8px;     /* Optional: smooth rounded corners */
+}
