@@ -113,6 +113,18 @@
     font-weight: 600;
     outline: none;
 }
+.nav-service{
+    padding: 25px 0;
+    color: var(--bs-dark);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: none;
+}
+.nav-service:hover,
+.nav-service.active {
+    color: var(--bs-primary);
+}
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
